@@ -30,6 +30,30 @@
 * Complex queries and problems.
 * Sentiment analysis.
 
+# Features and Functionality:
+### FRONTEND:
+* Frontend has been designed using **HTML, CSS, JAVASCRIPT**.
+* **HTML** has been used to handle the structure of the website, it's contents and it's display.
+* **CSS** has been used to create attractive and responsive layout to create an eye-catchy User-Interface.
+* **JavaScript** has been used to handle the various events associated with WebApp. <br>
+* Implemented Functionality such as:<br>
+&ensp; 1) Loading dots while we get the answer to the user's query. <br>
+&ensp; 2) Type sequentially each character one by one. <br>
+&ensp; 3) Proper icon and background rendered depending on whether the current writer is user or ChatAI. <br>
+### BACKEND:
+* The server side of the project is handled using **Node.js**.
+* **Express.js, dotenv, cors** have been used to create a simple route for requests made by the client(frontend) to reach the server.
+* OpenAI's famous model **text-davinci 003** has been used to answer the questions of the client:
+&ensp; 1) Temperature set to 0 to ensure no randomness in output. <br>
+&ensp; 2) The number of tokens to be displayed in output is set to a maximum of **3000** . <br>
+&ensp; 3) Frequency penalty set to 0 to ensure same output for same queries/problems asked by the client. <br>
 
-
-
+### How to get started:
+* First `git clone` this repository and go to appropriate directory on your local machine.
+* Go to directory where this repository is cloned and `cd client` to go to client folder.
+* now `npm install` to install all the necessary libraries.
+* now `npm run dev` to open the application in local host.
+* now go to a new command prompt and `cd server` to go to server folder.
+* now `npm install` to install all the necessary libraries.
+* now `npm run server` to host the server.
+That's It!. Now you are ready to ask your problems and queries to ChatEx!
