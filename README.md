@@ -43,7 +43,7 @@
 ### BACKEND:
 * The server side of the project is handled using **Node.js**.
 * **Express.js, dotenv, cors** have been used to create a simple route for requests made by the client(frontend) to reach the server.
-* OpenAI's famous model **text-davinci 003** has been used to answer the questions of the client:
+* OpenAI's famous model **text-davinci 003** has been used to answer the questions of the client:<br>
 &ensp; 1) Temperature set to 0 to ensure no randomness in output. <br>
 &ensp; 2) The number of tokens to be displayed in output is set to a maximum of **3000** . <br>
 &ensp; 3) Frequency penalty set to 0 to ensure same output for same queries/problems asked by the client. <br>
