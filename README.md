@@ -2,19 +2,19 @@
 
 # Table of Contents
 - Table of Contents
-- Basic Overview
 - Demo
-- Data Collection
-- Data Preprocessing
-- Model Designing
-- Results and Testing
-- Deployment
+- Tech Stack
+- Web App Features
+- Features and Functionality
+- How to get started
 
 # Basic Overview :
 * With ChatGPT and other AI apps taking all over the world, this project is an attempt to build a Web App similar to that.
 * The queries are answered using OpenAI's famous model **text-davinci 003**.
 
 # :film_projector: Demo :
+https://github.com/Aasneh/Chatex/assets/96459729/ed41cccb-7cf1-4c0c-ae26-f656fd5262b0
+
 
 # :abacus: Tech Stack :
 <p>
@@ -27,8 +27,19 @@
 
 # Web App Features:
 * Classy UI : Designed using **CSS**.
-* Complex queries and problems.
+  <br>
+ ![imgonline-com-ua-twotoone-zXJHpqrTPdp2LvL6](https://github.com/Aasneh/Chatex/assets/96459729/e9f9d7ab-9a31-4500-a51a-b0560b9d50c1)<br>
+
+* Queries Answered.
+ ![Screenshot (91)](https://github.com/Aasneh/Chatex/assets/96459729/25bc11b0-9316-4b2d-9e68-f0f76650bae3)<br>
+* Problems Solved
+![Screenshot (92)](https://github.com/Aasneh/Chatex/assets/96459729/42751ee0-894d-44e6-93c2-5ae22e6911a1)<br>
+![Screenshot (93)](https://github.com/Aasneh/Chatex/assets/96459729/51d6aed0-5b4c-479c-b29f-be56992bde5f)<br>
+
 * Sentiment analysis.
+
+ ![Screenshot (94)](https://github.com/Aasneh/Chatex/assets/96459729/283d9efa-8c95-42a5-92b8-18d4ca429759)<br>
+
 
 # Features and Functionality:
 ### FRONTEND:
